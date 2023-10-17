@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guild channels</title>
+</head>
+<body>
+    <div>
+        <h1>Channels</h1>
+        {{data.channel_list | safe}}
+        <a href="/guild?id={{data.guild.id}}">Back</a>
+    </div>
+</body>
+</html>
